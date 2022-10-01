@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Viva Pitágoras!</title>
+</head>
+<body>
+
+    <nav class="main-nav">
+      <h1>Calculadora Pitágoras</h1>
+    </nav>
+
+   
+
+    <aside class="aside-main">
+
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/folder_1.jpg" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/folder_2.jpg" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./img/folder_3.jpg" class="d-block w-100" alt="...">
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+    </aside>
+
+      <main class="contender-main">
+
+     
+        <div class="form1">
+
+          <form>
+
+            <div class="form-heather">
+            <h1>Cálculo da hipotenusa</h1>
+            </div>
+
+            <div class="input-grups">
+
+              <div class="input-box">
+                <label for="valorCatetoOposto">Valor do cateto oposto:</label>
+                <input type="number" name="valorCatetoOposto" id="valorCatetoOposto"></input>
+              </div>
+
+              <div class="input-box">
+                <label for="valorCatetoAdjacente">Valor do cateto adjacente:</label>
+                <input type="number" name="valorCatetoAdjacente" id="valorCatetoAdjacente"></input>
+              </div>
+              
+              <div class="calcular">
+              <button class="btn btn-light" id="button-calculoHipotenusa" type="submit" >Calcular</button>
+              </div>
+
+            </div>
+            
+          </form>
+
+        </div>
+
+
+    
+        <div class="form2">
+
+          <form>
+
+            <div class="form-heather">
+              <h1>Cálculo do cateto</h1>
+            </div>
+
+            <div class="input-grups">
+
+              <div class="input-box">
+                <label for="valorCateto">Valor do cateto:</label>
+                <input type="number" name="valorCateto" id="valorCateto"></input>
+              </div>
+
+              <div class="input-box">
+                <label for="valorHipotenusa">Valor da hipotenusa:</label>
+                <input type="number" name="valorHipotenusa" id="valorHipotenusa"></input>
+              </div>
+
+              <div class="calcular">
+                <button class="btn btn-light" id="button-calculoCateto" type="submit" >Calcular</button>
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+
+      </main>
+
+    <footer class="footer-main" >
+      <div class="icons">
+
+        <div class="footer-titulo" >
+          <h1>Desenvolvido por Raquel França :)</h1>
+        </div>
+      
+        <a target="_black" class="icon-img" href="https://github.com/Raqfranca"> <img src="./img/github.png"></a>
+
+        <a target="_black" class="icon-img" href="https://www.linkedin.com/in/raquelfranca/"> <img src="./img/linkedin.png"> </a>
+    </div>
+    </footer>
+
+    
+
+    
+    <script src="./script.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</body>
+</html>
