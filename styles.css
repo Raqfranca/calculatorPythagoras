@@ -40,13 +40,13 @@ aside{
     
 }
 
-.form1{
+.div-form1{
 background-color: #90aeff9f;
 margin-left: 10%;
 border-radius: 10px;
 }
 
-.form2{
+.div-form2{
 background-color: #cffc86d2;
 margin-right: 10%;
 border-radius: 10px;
@@ -63,22 +63,32 @@ label{
 
 #valorCatetoOposto{
     height: 20px;
-    width: 35px;
+    width: 55px;
 }
 
 #valorCatetoAdjacente{
     height: 20px;
-    width: 35px;
+    width: 55px;
 }
 
 #valorCateto{
     height: 20px;
-    width: 35px;
+    width: 55px;
 }
 
 #valorHipotenusa{
     height: 20px;
-    width: 35px;
+    width: 55px;
+}
+
+#resultado1{
+    height: 20px;
+    width: 55px;
+}
+
+#resultado2{
+    height: 20px;
+    width: 55px;
 }
 
 .input-grups{
@@ -89,6 +99,7 @@ label{
     margin: 5px;
     text-align: center;
 }
+
 
 /* Retirar as setas o input númerico*/ 
 
